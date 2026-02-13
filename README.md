@@ -19,7 +19,7 @@ Management needs help answering:
 -	Which location has the highest completion rate?
 -	Does attendance influence assessment performance?
 -	What is the student distribution by gender and education level?
-## 📂 Data Sourcing
+##  Data Sourcing
 The dataset was sourced from a structured Excel dataset created for analysis purposes.
 It contains:
 -	1,200 enrollment records
@@ -66,7 +66,8 @@ IF([@[Avg_score]]>=79,"Distinction",IF([@[Avg_score]]>=60,"Pass","Fail"))
 - An Age Group column was created to group students into meaningful categories for demographic analysis.
 =IF([@Age]>=30,"Experienced",IF([@Age]>=25,"Mid Level", "Entry Level"))
 ## Dashboard Features
-![](v)
+
+![](Excel-Dashboard.jpg)
 The interactive Excel dashboard includes:
 ### KPI Cards
 -	Total Enrollments: 1,200
